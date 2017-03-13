@@ -137,6 +137,6 @@ function generateBlocks(){
 }
 
   // john@digitaldownbeat.com
-  // added this line as a test
+  // added this line as a test to see if I can commit it.
 
   // Line 128, added in the data attribute to each new div. I can use this value to compare to find if the move is legal.
