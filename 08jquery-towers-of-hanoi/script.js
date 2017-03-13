@@ -139,4 +139,6 @@ function generateBlocks(){
   // john@digitaldownbeat.com
   // added this line as a test
 
-  // Line 128, added in the data attribute to each new div. I can use this value to compare to find if the move is legal.
+// Line 128, added in the data attribute to each new div. I can use this value to compare to find if the move is legal.
+
+  // When I create the new blocks I can use .css({, ,}); to give it new attributes the same way CSS is written. just multiply the attribute values by whatever the i is...
