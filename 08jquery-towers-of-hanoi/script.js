@@ -16,7 +16,7 @@ $(document).ready(function() {
   $("#input-Submit").click(generateBlocks);
   // listens for the click on the clear button then runs the function to deal with that click
   $('#clear').click(clearTowers);
-});
+}); // <--- last }); in ready
 
 // This function takes current vars as arguments to decide what to do with the information.
 function handleWhatWasClicked(){
@@ -72,7 +72,7 @@ function checkForWIn() {
     $('#announce-game-won').text("You Won!");
   }
 //****Need to end the game and reset after a certain time or find a way to jump out of the loop.**** 
-}
+} // <--- last } in checkForWIn
 
 function clearTowers() {
   toWinValue = 3;
@@ -89,12 +89,12 @@ function clearTowers() {
   // Clear the winner banner
   $("#announce-game-won").empty();
   pushMinimum();
-} 
+} // <--- last } in clearTowers
 
 //  Must be global because its used by multiple functions to display the current move count.
 function pushCounter(){
   $('#move-count').text("Total moves " + counter);
-}
+} // <--- last } in pushCounter
 
 // This function handles the moving piece(floating piece). The #moving-div is a stationary div used to placehold the value of what was picked up
 // this function changes the position of that stationary div using the (x,y) coordinates of the cursor as its placement.
@@ -103,13 +103,13 @@ $(document).on('mousemove', function(e){
     left:  e.pageX,
     top:   e.pageY 
     });
-});
+}); // <--- last }); in mousemove
 
 // This function gets the value of sound held in HTML and plays it.
 function playSound() {
   var sound = document.getElementById("audio");
   sound.play()
-}
+} // <--- last } in playSound
 
 // creates new blocks based on the user's input
 function generateBlocks(){
@@ -140,4 +140,4 @@ function generateBlocks(){
 // returns the value of the number needed to win and pushes the value to a div.
 function pushMinimum() {
   $("#block-Counter").text("Min # of moves " + (Math.pow(2, toWinValue) - 1));
-}
+} // <--- last } in pushMinimum

@@ -31,7 +31,7 @@ h3 {
   border: solid black 1px;
 }
 
-[data-block], #token1, #token2, #token3, #token4, #token5  {
+[data-block]{
   border-radius: 7px;
   background-image: linear-gradient(
   rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
@@ -134,7 +134,6 @@ p {
   display: flex;
   flex-direction: column-reverse;
   border-radius: 10px;
-  /*border: solid black 1px;*/
   padding: 0;
 }
 
