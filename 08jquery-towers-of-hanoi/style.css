@@ -24,8 +24,6 @@ h3 {
   background: linear-gradient(    
      rgba(0, 0, 0, 0.5) 40%,
      rgba(255, 255, 255, 0) );
-  /*background-image: linear-gradient(
-  rgba(255, 255, 255, .7) 0%, rgba(255, 255, 255, 0) 80%);*/
   margin: 25px auto;
   display: flex;
   flex-direction: column-reverse;
@@ -33,37 +31,13 @@ h3 {
   border: solid black 1px;
 }
 
-[data-block], #token1, #token2, #token3, #token4 {
+[data-block], #token1, #token2, #token3, #token4, #token5  {
   border-radius: 7px;
   background-image: linear-gradient(
-  rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%);
+  rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 [data-block="25"] {
-  height: 10px;
-  width: 25px;
-  background-color: #7AAD5D;
-}
-
-#token1 {
-  height: 10px;
-  width: 25px;
-  background-color: #7AAD5D;
-}
-
-#token2 {
-  height: 10px;
-  width: 25px;
-  background-color: #7AAD5D;
-}
-
-#token3 {
-  height: 10px;
-  width: 25px;
-  background-color: #7AAD5D;
-}
-
-#token4 {
   height: 10px;
   width: 25px;
   background-color: #7AAD5D;
@@ -83,11 +57,39 @@ h3 {
   background-color: #353844;
 }
 
-[data-block="100"] {
+[data-block="101"] {
   border-radius: 12px;
   height: 16px;
   width: 100px;
   background-color: #13681F;
+}
+
+[data-block = "102"] {
+  border-radius: 14px;
+  height: 13px;
+  width: 125px;
+  background-color: #D2B96C;
+}
+
+[data-block = "103"] {
+  border-radius: 16px;
+  height: 18px;
+  width: 150px;
+  background-color: #002201;
+}
+
+[data-block = "104"] {
+  border-radius: 18px;
+  height: 18.5px;
+  width: 175px;
+  background-color: #2E5921;
+}
+
+[data-block = "105"] {
+  border-radius: 20px;
+  height: 19px;
+  width: 195px;
+  background-color: #0D2B02;
 }
 
 #announce-game-won {
@@ -165,7 +167,6 @@ p {
 }
 
 #block-Counter, #clear{
-  margin-left: 10px;
-  
+  margin-left: 10px; 
 }
 
