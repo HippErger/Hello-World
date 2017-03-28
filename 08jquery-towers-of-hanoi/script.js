@@ -141,3 +141,5 @@ function generateBlocks(){
 function pushMinimum() {
   $("#block-Counter").text("Min # of moves " + (Math.pow(2, toWinValue) - 1));
 } // <--- last } in pushMinimum
+
+// ;a;dsasdgo;nsdof
